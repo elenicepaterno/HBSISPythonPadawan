@@ -1,4 +1,4 @@
-def db_sort(matriz):
+def db_sort(matriz: list) -> list:
     list_strings = []
     list_numbers = []
     [list_numbers.append(item) if type(item) == int else list_strings.append(item) for item in matriz]
